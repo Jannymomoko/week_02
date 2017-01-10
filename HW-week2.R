@@ -10,6 +10,8 @@ sd(week2.dataset)
 IQR(week2.dataset)
 
 #PC4. Write R code to compute these three statistics by hand: mean, median, and mode. It's OK if getting the answer involves some eyeballing or counting this by hand. 
+sum(week2.dataset)/lenght(week2.dataset)
+order(week2.dataset)[lenght(week2.dataset)/2]
 
 #PC5. Create a number of visualizations of your dataset: at the very least, create a boxplot and histogram.
 hist(week2.dataset)
